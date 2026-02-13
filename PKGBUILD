@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=qrview
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1"
-_commit="3adb0c64cc9e55f3895e7894d996ab8a4ee63c05"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1"
+_commit="2d9342e618a2842a2a0330d5244e134759ed1a27"
 pkgrel=1
 _pkgdesc=(
   "Cross platform QR viewer"
@@ -78,7 +78,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="f422e05c4d887ba77ec8cc0277fe61f7b6cd272b81e54ea9e2cb22cd3dfd3870"
+    _sum="18393fc2cceed5504d12bbb41cbe90405585375c9d5c36f857e113ec470a8446"
   fi && \
     source+=(
       "${_tar}"
